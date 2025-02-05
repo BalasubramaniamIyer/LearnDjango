@@ -1,0 +1,4 @@
+this is my project folder
+
+There is only one project floder for a one project
+but we can have as many app folders for a single project
