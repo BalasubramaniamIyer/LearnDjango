@@ -2,6 +2,6 @@ from django.db import models
 
 # Create your models here.
 class Product(models.Model):
-    title = models.CharField(20)
-    description = models.CharField(100)
+    title = models.CharField(max_length= 20)
+    description = models.CharField(max_length=100)
     price = models.DecimalField(10, 2)
